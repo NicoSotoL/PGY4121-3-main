@@ -1,0 +1,12 @@
+<ion-header class="ion-text-center">
+  <ion-toolbar >
+    <ion-title *ngIf="dataUser"> 
+      <h1 #titulo>Bienvenido: {{ dataUser.nombre }}</h1>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <app-scanner class="ion-text-center"></app-scanner>
+  <ion-button expand="full" (click)="logout()">Cerrar Sesion</ion-button>
+</ion-content>

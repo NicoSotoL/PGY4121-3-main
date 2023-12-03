@@ -1,0 +1,81 @@
+{
+  "profesores": [
+    {
+      "id": 1,
+      "nombre": "Diego Cares",
+      "cursos": [
+        {
+          "id": 1,
+          "nombre": "Pasteleria III",
+          "codigo": "PTY1004",
+          "seccion": "001V",
+          "alumnos": [
+            {
+              "id": 1,
+              "user": "ni.sabando",
+              "nombre": "Nicolas Sabando"
+            },
+            {
+              "id": 2,
+              "user": "nico.soto",
+              "nombre": "Nicolas Soto"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "nombre": "Principios de reposteria",
+          "codigo": "PDR0011",
+          "seccion": "009V",
+          "alumnos": [
+            {
+              "id": 1,
+              "user": "ni.sabando",
+              "nombre": "Nicolas Sabando"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "nombre": "Frances I",
+          "codigo": "PGY2121",
+          "seccion": "001V",
+          "alumnos": [
+            {
+              "id": 2,
+              "user": "nico.soto",
+              "nombre": "Nicolas Soto"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "user": "d.cares",
+      "password": "1234",
+      "nombre": "Diego Cares",
+      "perfil": 1,
+      "correo": "d.cares@profesor.duocuc.cl"
+    },
+    {
+      "id": 2,
+      "user": "ni.sabando",
+      "password": "1234",
+      "nombre": "Nicolas Sabando",
+      "perfil": 2,
+      "correo": "ni.sabando@duocuc.cl"
+    },
+    {
+      "id": 3,
+      "user": "nico.soto",
+      "password": "1234",
+      "nombre": "Nicolas Soto",
+      "perfil": 2,
+      "correo": "nico.soto@duocuc.cl"
+    }],
+  "clases": [
+  ]
+}
